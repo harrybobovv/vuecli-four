@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    1111111
   </div>
 </template>
 
