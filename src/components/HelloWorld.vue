@@ -14,7 +14,8 @@ export default {
     getData() {
       console.log(1111);
       console.log(this.axios);
-      this.axios.get('StudySpringBoot/demo/selectUsers?id=1')
+      let id = 1;
+      this.axios.get(`StudySpringBoot/demo/selectUsers/${id}`)
       .then((res)=>{
         console.log(res);
       })
