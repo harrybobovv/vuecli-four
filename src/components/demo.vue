@@ -3,6 +3,7 @@
         add 新文件加入暂存区
         commit 提交到本地仓库
         push 提交到远程仓库
+        pull 拉取远程最新代码
     </div>
 </template>
 
