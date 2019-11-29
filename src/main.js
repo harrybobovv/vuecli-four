@@ -4,10 +4,16 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+// axios
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
+// iview
+import ViewUI from 'view-design';
+import 'view-design/dist/styles/iview.css';
+
 Vue.use(VueAxios, axios)
+Vue.use(ViewUI);
 
 Vue.config.productionTip = false
 

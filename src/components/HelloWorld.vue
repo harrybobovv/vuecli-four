@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <button @click="getData">aaaa</button>
+    <Button>Default</Button>
   </div>
 </template>
 
